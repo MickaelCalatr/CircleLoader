@@ -1,6 +1,7 @@
 # CircleLoader
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3000e9f53be34ab694ac1bb36d90d695)](https://app.codacy.com/app/MickaelCalatr/CircleLoader?utm_source=github.com&utm_medium=referral&utm_content=MickaelCalatr/CircleLoader&utm_campaign=Badge_Grade_Settings)
-[![](https://jitpack.io/v/MickaelCalatr/CircleLoading.svg)](https://jitpack.io/#MickaelCalatr/CircleLoading)
+[![](https://img.shields.io/github/license/MickaelCalatr/CircleLoader.svg?style=flat)](https://opensource.org/licenses/MIT)
+[ ![Download](https://api.bintray.com/packages/calatr/Circle_Loader/circleloading/images/download.svg) ](https://bintray.com/calatr/Circle_Loader/circleloading/_latestVersion)
 
 This is a simple circle loader library for android API 21+.
 
@@ -10,27 +11,14 @@ This is how it looks in standard mode but you can configure it as you want.
 ![](assets/demo_loader.gif)
 
 ## Dependency
-You can copy the CircleLoader.java (in the library module) and the attrs.xml
-content into your project. Or you can get the binaries from Maven central by
-adding in your build.gradle dependencies:
+Just add the dependency to your gradle file.
 
-### Step 1
-
-```gradle
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```
-
-### Step 2
 ```gradle
 dependencies {
-        implementation 'com.github.MickaelCalatr:CircleLoading:1.0'
+        implementation 'com.mickaelcalatr.circleloading:circleloaderview:1.0.0'
 }
 ```
+
 ## Usage
 You can create your own CircleLoader in xml like this;
 
@@ -80,11 +68,11 @@ In the xml definition, besides the property, you can set:
 
 ## Version
 
--   1.0 Initial release
+-   1.0.0 Initial release
 
 ## Special thanks
 The project of [Yankai-victor](https://github.com/yankai-victor/Loading) help me
-so much to create my library, thanks to his and his work !
+so much to create my library, thanks to him and his work !
 
 ## License
 

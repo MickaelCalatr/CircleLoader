@@ -1,9 +1,9 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
 
 android {
     compileSdkVersion 28
-
-
 
     defaultConfig {
         minSdkVersion 21
@@ -12,7 +12,6 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -32,3 +31,29 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+ext {
+    bintrayRepo = 'Circle_Loader'
+    bintrayName = 'circleloading'
+
+    publishedGroupId = 'com.mickaelcalatr.circleloading'
+    libraryName = 'CircleLoaderView'
+    artifact = 'circleloaderview'
+
+    libraryDescription = 'This is a simple circle loader library for android API 21+.'
+
+    siteUrl = 'https://github.com/MickaelCalatr/CircleLoader'
+    gitUrl = 'https://github.com/MickaelCalatr/CircleLoader.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'Calatr'
+    developerName = 'Mickael Calatraba'
+    developerEmail = 'mickael.calatraba@gmail.com'
+
+    licenseName = 'MIT'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
+
+apply from: 'settings.gradle'
