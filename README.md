@@ -1,4 +1,4 @@
-# CircleLoader
+# Circle Loader
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3000e9f53be34ab694ac1bb36d90d695)](https://app.codacy.com/app/MickaelCalatr/CircleLoader?utm_source=github.com&utm_medium=referral&utm_content=MickaelCalatr/CircleLoader&utm_campaign=Badge_Grade_Settings)
 [![](https://img.shields.io/github/license/MickaelCalatr/CircleLoader.svg?style=flat)](https://opensource.org/licenses/MIT)
 [![Download](https://api.bintray.com/packages/calatr/Circle_Loader/circleloading/images/download.svg)](https://bintray.com/calatr/Circle_Loader/circleloading/_latestVersion)
