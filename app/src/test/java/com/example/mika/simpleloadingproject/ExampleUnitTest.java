@@ -1,4 +1,4 @@
-package com.example.mika.loadingproject;
+package com.example.mika.simpleloadingproject;
 
 import org.junit.Test;
 

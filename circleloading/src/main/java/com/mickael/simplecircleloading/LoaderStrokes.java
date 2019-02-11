@@ -1,4 +1,4 @@
-package com.mickael.circleloading;
+package com.mickael.simplecircleloading;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;

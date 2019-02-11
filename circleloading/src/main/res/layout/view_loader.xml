@@ -9,7 +9,7 @@
         android:layout_height="match_parent"/>
 
 
-    <com.mickael.circleloading.LoaderStrokes
+    <com.mickael.simplecircleloading.LoaderStrokes
         android:id="@+id/circle_loader"
         android:layout_width="200dp"
         android:layout_height="200dp"

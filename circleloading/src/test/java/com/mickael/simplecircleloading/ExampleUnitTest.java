@@ -1,4 +1,4 @@
-package com.mickael.circleloading;
+package com.mickael.simplecircleloading;
 
 import org.junit.Test;
 

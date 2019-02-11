@@ -1,11 +1,11 @@
-package com.example.mika.loadingproject;
+package com.example.mika.simpleloadingproject;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.mickael.circleloading.CircleLoaderView;
+import com.mickael.simplecircleloading.CircleLoaderView;
 
 public class MainActivity extends AppCompatActivity {
 
