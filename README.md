@@ -1,7 +1,7 @@
 # Circle Loader
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3000e9f53be34ab694ac1bb36d90d695)](https://app.codacy.com/app/MickaelCalatr/CircleLoader?utm_source=github.com&utm_medium=referral&utm_content=MickaelCalatr/CircleLoader&utm_campaign=Badge_Grade_Settings)
 [![](https://img.shields.io/github/license/MickaelCalatr/CircleLoader.svg?style=flat)](https://opensource.org/licenses/MIT)
-[![Download](https://api.bintray.com/packages/calatr/Circle_Loader/circleloading/images/download.svg)](https://bintray.com/calatr/Circle_Loader/circleloading/_latestVersion)
+[![Download](https://api.bintray.com/packages/calatr/Circle_Loader/circleloading/images/download.svg?version=1.1.0)](https://bintray.com/calatr/Circle_Loader/circleloading/1.1.0/link)
 
 This is a simple circle loader library for android API 21+.
 
@@ -15,7 +15,7 @@ Just add the dependency to your gradle file.
 
 ```gradle
 dependencies {
-        implementation 'com.mickaelcalatr.circleloading:circleloaderview:1.0.0'
+        implementation 'com.mickaelcalatr.simplecircleloading:circleloaderview:1.1.0'
 }
 ```
 
@@ -23,7 +23,7 @@ dependencies {
 You can create your own CircleLoader in xml like this;
 
 ```xml
-    <com.mickael.circleloading.CircleLoaderView
+    <com.mickael.simplecircleloading.CircleLoaderView
         android:id="@+id/loading_circle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

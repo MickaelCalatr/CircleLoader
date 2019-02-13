@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
+group = 'com.github.MickaelCalatr'
 
 android {
     compileSdkVersion 28
@@ -8,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -33,10 +34,10 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'Circle_Loader'
-    bintrayName = 'circleloading'
+    bintrayRepo = 'Circle_Loading'
+    bintrayName = 'maven'
 
-    publishedGroupId = 'com.mickaelcalatr.circleloading'
+    publishedGroupId = 'com.mickaelcalatr.simplecircleloading'
     libraryName = 'CircleLoaderView'
     artifact = 'circleloaderview'
 
@@ -45,7 +46,7 @@ ext {
     siteUrl = 'https://github.com/MickaelCalatr/CircleLoader'
     gitUrl = 'https://github.com/MickaelCalatr/CircleLoader.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.1.0'
 
     developerId = 'Calatr'
     developerName = 'Mickael Calatraba'
